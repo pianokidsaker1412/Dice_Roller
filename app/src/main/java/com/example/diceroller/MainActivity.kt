@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             4 -> R.drawable.dice_4
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
-
+dsadasdsadsad
 
         }
         diceImage.setImageResource(diceImageResource)
@@ -43,4 +43,4 @@ class Dice (private val numSides: Int){
         return (1..numSides).random()
     }
 }
-dasdasdsadsad
+
