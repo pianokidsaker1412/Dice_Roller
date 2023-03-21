@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private fun rollDice() {
 
         val dice = Dice(6)
-
+        val try_brand1 = 3
         val diceRoll = dice.roll()
         val diceImage : ImageView = findViewById(R.id.imageView)
         val diceImageResource = when (diceRoll){
@@ -38,9 +38,9 @@ class MainActivity : AppCompatActivity() {
         diceImage.contentDescription= diceRoll.toString()
     }
 }
-class Dice (private val numSides: Int){
-    fun roll(): Int{
+class Dice (private val numSides: Int) {
+    fun roll(): Int {
         return (1..numSides).random()
     }
 }
-dasdasdsadsad
+
